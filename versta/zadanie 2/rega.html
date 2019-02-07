@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<ul type="disc">
+    <li><a href="index.html">На главную</a></li>
+    <li><a href="stati.html">Статьи</a></li>
+    <li><a href="catalog.html">Каталог</a></li>
+    <li><a href="galery.html">Галерея изображений</a></li>
+    <li><b>Регистрация</b></a></li>
+    <li><a href="Contact.html">Контакты</a></li>
+</ul>
+<form action="file.php" method="post" enctype ="multipart/form-data">
+    Фамилия<br>
+    <input type="text" size=“50" name="fam"><br>
+    Имя<br>
+    <input type="text" size=“50" name="name"><br>
+    Отчество<br>
+    <input type="text" size=“50" name="otch"><br>
+    Фотография<br>
+    <input type="file" name="file">Фотография<br>
+    Эмейл<br>
+    <input type="email" size=“50" name="mail"><br>
+    Пароль<br>
+    <input type="password" size=“50" name="pass"><br>
+    Адрес сайта<br>
+    <input type="text" size=“50" name="site" value="http://"><br>
+    ПОЛ<br>
+    <input type="radio" name="man" value="rad1"> Man <input type="radio" name="man" value="rad2"> Wom <br>
+    Дата рождения<br>
+    <input type="date"  name="birt"><br>
+    Блюда какой кухни предпочитаете?<br>
+    <input type="checkbox" name="bludo" value="var1"> Русская<br>
+    <input type="checkbox" name="bludo" value="var2"> Грузинская<br>
+    <input type="checkbox" name="bludo" value="var3"> Итальянская<br>
+    О себе в произвольной форме<br>
+    <textarea cols="50" rows="5" name="about" > </textarea><br>
+    <input type="reset"><input type="submit">
+</form>
+<footer>
+    Евгений Дорохов  &copy;
+</footer>
+</body>
+</html>
