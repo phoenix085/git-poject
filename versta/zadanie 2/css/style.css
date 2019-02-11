@@ -1,0 +1,42 @@
+body {
+    background: url(../img/background_1.jpg) right top no-repeat;
+}
+.menu_link{
+font-family: "Lucida Console", Monaco, monospace;
+}
+a.menu_link:hover{
+    color: red;
+}
+p.kratko a:hover{
+    color: red;
+    text-decoration: none;
+}
+h2 a{
+    color: cadetblue;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid yellowgreen;
+}
+.kratko{
+    background-color: aliceblue;
+}
+h4 a{
+    color: darkgrey;
+}
+.menu{
+    list-style-image: url("../img/li1.png");
+}
+
+ul.menu ul{
+    list-style-image: url("../img/li2.png");
+}
+.punkt li{
+    background-color: ivory;
+}
+.punkt:first-line{
+    font-size: 18px;
+    background-color: honeydew;
+}
+.new{
+    background-color: red;
+}
