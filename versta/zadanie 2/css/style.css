@@ -40,3 +40,32 @@ ul.menu ul{
 .new{
     background-color: red;
 }
+
+a img{
+    border: 4px solid rebeccapurple;
+}
+a img:hover{
+   border-color: transparent;
+}
+input[type="text"]{
+    width: 350px;
+}
+input[type="password"],input[type="email"],input[type="tel"]{
+    width: 250px;
+}
+input[type="email"]:focus{
+    color: red;
+    background-color: yellow;
+}
+input[type="reset"]:active{
+    background-color: honeydew;
+}
+input[type="submit"]:active{
+    background-color: gold;
+}
+.ramka:hover{
+    border: red 2px dotted;
+}
+input[name="fam"], input[name="name"],input[name="otch"]{
+    text-transform: capitalize;
+}
